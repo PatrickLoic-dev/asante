@@ -16,38 +16,38 @@ export default function AboutPage() {
 
   const team = [
     {
-      name: "Mandessi KWELLE",
+      name: "Mandessi Kwelle",
       role: "Principal Architect & Co-Founder",
       image: "/Team/Mandessi Kwelle.jpg",
-      bio: "With over 20 years of experience in sustainable architecture and urban planning, Sarah leads our design vision with a focus on environmental responsibility and community impact.",
+      bio: "With over 20 years of experience in sustainable architecture and urban planning, Mandessi leads our design vision with a focus on environmental responsibility and community impact.",
       education: "Architecte (Cameroun) ONAC 494",
     },
     {
-      name: "Emmanuelle Karell KOUPELLE",
+      name: "Emmanuelle Karell Koupelle",
       role: "Principal Architect & Co-Founder",
       image: "/Team/Emmanuelle Koupelle.jpeg",
-      bio: "Michael specializes in innovative residential and commercial design solutions, bringing a unique blend of technical expertise and creative vision to every project.",
+      bio: "Emmanuelle specializes in innovative residential and commercial design solutions, bringing a unique blend of technical expertise and creative vision to every project.",
       education: "Architecte (Cameroun) ONAC 395",
     },
     {
-      name: "Cedric Arnaud KOUPELLE",
+      name: "Cedric Arnaud Koupelle",
       role: "Associate Architect",
       image: "/Team/Cedric Koupelle.jpg",
-      bio: "Emily ensures seamless project execution while creating beautiful interior spaces that complement our architectural designs. Her attention to detail is unmatched.",
+      bio: "Cedric ensures seamless project execution while creating beautiful interior spaces that complement our architectural designs. His attention to detail is unmatched.",
       education: "Architecte (Cameroun) ONAC 397",
     },
     {
-      name: "Kave-Ike NGODI PENDA",
+      name: "Kave-Ike Ngodi Penda",
       role: "Electrotechnical Engineer",
       image: "/Team/Ngodi Penda Kave-Ike.jpeg",
-      bio: "David brings expertise in public architecture and institutional projects, with a passion for creating spaces that serve communities and enhance public life.",
-      education: "Expert junior KNX (Cameroun)",
+      bio: "Kave-Ike brings expertise in electrotechnical engineering, ensuring our projects integrate cutting-edge technology and sustainable energy solutions.",
+      education: "Expert Junior KNX (Cameroun)",
     },
     {
-      name: "Collins YTEMBE SIAKE",
+      name: "Collins Ytembe Siake",
       role: "Civil Engineer",
       image: "/Team/Siake Collins.jpeg",
-      bio: "David brings expertise in public architecture and institutional projects, with a passion for creating spaces that serve communities and enhance public life.",
+      bio: "Collins contributes his expertise in structural engineering, ensuring the durability and safety of our architectural projects.",
       education: "ONIGC 2774",
     }
   ];
