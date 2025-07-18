@@ -19,7 +19,7 @@ export default function AboutPage() {
       name: "Mandessi Kwelle",
       role: "Principal Architect & Co-Founder",
       image: "/Team/Mandessi Kwelle.jpg",
-      bio: "With over 20 years of experience in sustainable architecture and urban planning, Mandessi leads our design vision with a focus on environmental responsibility and community impact.",
+      bio: "With strong experience in sustainable architecture and urban planning, Mandessi leads our design vision with a focus on environmental responsibility and community impact.",
       education: "Architecte (Cameroun) ONAC 494",
     },
     {
