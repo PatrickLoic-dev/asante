@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin
+Disallow: /drafts
+
+# Host
+Host: https://asanteartsy.vercel.app
+
+# Sitemaps
+Sitemap: https://asanteartsy.vercel.app/sitemap.xml

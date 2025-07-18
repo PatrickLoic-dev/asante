@@ -20,40 +20,35 @@ export default function AboutPage() {
       role: "Principal Architect & Co-Founder",
       image: "/Team/Mandessi Kwelle.jpg",
       bio: "With over 20 years of experience in sustainable architecture and urban planning, Sarah leads our design vision with a focus on environmental responsibility and community impact.",
-      education: "M.Arch, Harvard Graduate School of Design",
-      specialties: ["Sustainable Design", "Urban Planning", "Residential Architecture"]
+      education: "Architecte (Cameroun) ONAC 494",
     },
     {
       name: "Emmanuelle Karell KOUPELLE",
       role: "Principal Architect & Co-Founder",
       image: "/Team/Emmanuelle Koupelle.jpeg",
       bio: "Michael specializes in innovative residential and commercial design solutions, bringing a unique blend of technical expertise and creative vision to every project.",
-      education: "M.Arch, MIT School of Architecture",
-      specialties: ["Commercial Design", "Mixed-Use Development", "Adaptive Reuse"]
+      education: "Architecte (Cameroun) ONAC 395",
     },
     {
       name: "Cedric Arnaud KOUPELLE",
       role: "Associate Architect",
       image: "/Team/Cedric Koupelle.jpg",
       bio: "Emily ensures seamless project execution while creating beautiful interior spaces that complement our architectural designs. Her attention to detail is unmatched.",
-      education: "B.Arch, UC Berkeley",
-      specialties: ["Interior Architecture", "Project Management", "Client Relations"]
+      education: "Architecte (Cameroun) ONAC 397",
     },
     {
       name: "Kave-Ike NGODI PENDA",
       role: "Electrotechnical Engineer",
       image: "/Team/Ngodi Penda Kave-Ike.jpeg",
       bio: "David brings expertise in public architecture and institutional projects, with a passion for creating spaces that serve communities and enhance public life.",
-      education: "M.Arch, Columbia GSAPP",
-      specialties: ["Public Architecture", "Institutional Design", "Community Planning"]
+      education: "Expert junior KNX (Cameroun)",
     },
     {
       name: "Collins YTEMBE SIAKE",
       role: "Civil Engineer",
       image: "/Team/Siake Collins.jpeg",
       bio: "David brings expertise in public architecture and institutional projects, with a passion for creating spaces that serve communities and enhance public life.",
-      education: "M.Arch, Columbia GSAPP",
-      specialties: ["Public Architecture", "Institutional Design", "Community Planning"]
+      education: "ONIGC 2774",
     }
   ];
 
@@ -204,19 +199,10 @@ export default function AboutPage() {
                   <p className="text-brown-600 font-semibold mb-4">{member.role}</p>
                   <p className="text-neutral-700 mb-4 leading-relaxed">{member.bio}</p>
                   <div className="mb-4">
-                    <h4 className="font-semibold text-brown-900 mb-2">Education</h4>
+                    <h4 className="font-semibold text-brown-900 mb-2">Accreditations</h4>
                     <p className="text-neutral-600">{member.education}</p>
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-brown-900 mb-2">Specialties</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {member.specialties.map((specialty, idx) => (
-                        <span key={idx} className="bg-brown-100 text-brown-800 px-3 py-1 rounded-full text-sm">
-                          {specialty}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
+
                 </div>
               </div>
             ))}
