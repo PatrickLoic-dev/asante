@@ -9,9 +9,8 @@ import Footer from '@/components/Footer';
 export default function AboutPage() {
   const stats = [
     { number: '150+', label: 'Projects Completed' },
-    { number: '25+', label: 'Awards Won' },
-    { number: '8', label: 'Years Experience' },
-    { number: '50+', label: 'Happy Clients' }
+    { number: '3', label: 'Years Experience' },
+    { number: '10+', label: 'Happy Clients' }
   ];
 
   const team = [
