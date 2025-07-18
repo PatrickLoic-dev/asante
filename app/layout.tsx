@@ -5,14 +5,14 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'ArcSpace - Modern Architecture Agency',
+  title: 'ASANTE - Modern Architecture Agency',
   description: 'Professional architectural solutions for innovative and sustainable design. Crafting modern architecture for a better future.',
   keywords: 'architecture, design, sustainable, modern, buildings, residential, commercial',
-  authors: [{ name: 'ArcSpace' }],
+  authors: [{ name: 'ASANTE' }],
   viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
-    title: 'ArcSpace - Modern Architecture Agency',
+    title: 'ASANTE - Modern Architecture Agency',
     description: 'Professional architectural solutions for innovative and sustainable design.',
     type: 'website',
     locale: 'en_US',

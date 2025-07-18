@@ -16,33 +16,41 @@ export default function AboutPage() {
 
   const team = [
     {
-      name: "Sarah Johnson",
-      role: "Principal Architect & Founder",
-      image: "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=400",
+      name: "Mandessi KWELLE",
+      role: "Principal Architect & Co-Founder",
+      image: "/Team/Mandessi Kwelle.jpg",
       bio: "With over 20 years of experience in sustainable architecture and urban planning, Sarah leads our design vision with a focus on environmental responsibility and community impact.",
       education: "M.Arch, Harvard Graduate School of Design",
       specialties: ["Sustainable Design", "Urban Planning", "Residential Architecture"]
     },
     {
-      name: "Michael Chen",
-      role: "Design Director",
-      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400",
+      name: "Emmanuelle Karell KOUPELLE",
+      role: "Principal Architect & Co-Founder",
+      image: "/Team/Emmanuelle Koupelle.jpeg",
       bio: "Michael specializes in innovative residential and commercial design solutions, bringing a unique blend of technical expertise and creative vision to every project.",
       education: "M.Arch, MIT School of Architecture",
       specialties: ["Commercial Design", "Mixed-Use Development", "Adaptive Reuse"]
     },
     {
-      name: "Emily Rodriguez",
-      role: "Project Manager & Interior Architect",
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
+      name: "Cedric Arnaud KOUPELLE",
+      role: "Associate Architect",
+      image: "/Team/Cedric Koupelle.jpg",
       bio: "Emily ensures seamless project execution while creating beautiful interior spaces that complement our architectural designs. Her attention to detail is unmatched.",
       education: "B.Arch, UC Berkeley",
       specialties: ["Interior Architecture", "Project Management", "Client Relations"]
     },
     {
-      name: "David Park",
-      role: "Senior Architect",
-      image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
+      name: "Kave-Ike NGODI PENDA",
+      role: "Electrotechnical Engineer",
+      image: "/Team/Ngodi Penda Kave-Ike.jpeg",
+      bio: "David brings expertise in public architecture and institutional projects, with a passion for creating spaces that serve communities and enhance public life.",
+      education: "M.Arch, Columbia GSAPP",
+      specialties: ["Public Architecture", "Institutional Design", "Community Planning"]
+    },
+    {
+      name: "Collins YTEMBE SIAKE",
+      role: "Civil Engineer",
+      image: "/Team/Siake Collins.jpeg",
       bio: "David brings expertise in public architecture and institutional projects, with a passion for creating spaces that serve communities and enhance public life.",
       education: "M.Arch, Columbia GSAPP",
       specialties: ["Public Architecture", "Institutional Design", "Community Planning"]
@@ -78,10 +86,10 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold text-brown-900 mb-6">
-                About <span className="text-brown-600">ArcSpace</span>
+                About <span className="text-brown-600">ASANTE</span>
               </h1>
               <p className="text-xl text-neutral-700 mb-8 leading-relaxed">
-                Founded in 2015, ArcSpace has established itself as a leading architectural firm 
+                Founded in September 2012, ASANTE has established itself as a leading architectural firm 
                 specializing in sustainable, innovative design solutions that enhance communities 
                 and improve quality of life.
               </p>
@@ -98,7 +106,7 @@ export default function AboutPage() {
             <div className="relative">
               <Image
                 src="https://images.pexels.com/photos/380337/pexels-photo-380337.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="ArcSpace Studio"
+                alt="ASANTE Studio"
                 width={600}
                 height={500}
                 className="rounded-lg shadow-2xl"
@@ -117,7 +125,7 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg max-w-none text-neutral-700">
               <p className="text-xl leading-relaxed mb-6">
-                ArcSpace was born from a vision to create architecture that not only serves its immediate 
+                ASANTE was born from a vision to create architecture that not only serves its immediate 
                 purpose but also contributes positively to the broader community and environment. Our founder, 
                 Sarah Johnson, established the firm with the belief that great architecture should be accessible, 
                 sustainable, and deeply connected to the people who inhabit it.
@@ -129,7 +137,7 @@ export default function AboutPage() {
                 each reflecting our core values of innovation, sustainability, and community engagement.
               </p>
               <p className="text-lg leading-relaxed">
-                Today, ArcSpace continues to push the boundaries of architectural design, integrating 
+                Today, ASANTE continues to push the boundaries of architectural design, integrating 
                 cutting-edge technology with time-tested principles to create spaces that inspire, 
                 function beautifully, and stand the test of time.
               </p>
@@ -182,7 +190,7 @@ export default function AboutPage() {
                     src={member.image}
                     alt={member.name}
                     fill
-                    className="object-cover"
+                    className="object-cover object-center"
                   />
                 </div>
                 <div className="p-8">

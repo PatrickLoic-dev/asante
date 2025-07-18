@@ -254,7 +254,7 @@ export default function ServicesPage() {
               <ul className="space-y-2 text-neutral-700">
                 <li>• Educational Facilities</li>
                 <li>• Healthcare Buildings</li>
-                <li>• Cultural Centers</li>
+                <li>• Cultural Centers & Chiefdoms</li>
                 <li>• Government Buildings</li>
                 <li>• Community Centers</li>
               </ul>

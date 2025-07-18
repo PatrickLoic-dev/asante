@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Award, Users, Lightbulb, Leaf, Building2, Home, Zap, ChevronRight } from 'lucide-react';
+import { ArrowRight, Award, Users, Lightbulb, Leaf, Building2, Home, Zap, ChevronRight, Handshake } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
@@ -34,35 +34,35 @@ export default function HomePage() {
   const featuredProjects = [
     {
       id: 1,
-      title: "Modern Lakeside Villa",
-      category: "Residential",
-      image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
-      location: "Lake Tahoe, CA",
-      year: "2023"
+      title: "NFM Cabinet",
+      category: "commercial",
+      image: "/Projects/Commercial/Cabinet NFM - Douala.png",
+      location: "Douala, Cameroon",
+      year: "2025",
     },
     {
       id: 2,
-      title: "Urban Innovation Center",
-      category: "Commercial",
-      image: "https://images.pexels.com/photos/2412603/pexels-photo-2412603.jpeg?auto=compress&cs=tinysrgb&w=800",
-      location: "San Francisco, CA",
-      year: "2023"
+      title: "Bonambappe Chiefdom",
+      category: "public",
+      image: "/Projects/Public/Chefferie Bonambappe.png",
+      location: "Bonambappe, Cameroon",
+      year: "2025",
     },
     {
       id: 3,
-      title: "Sustainable Community Hub",
-      category: "Public",
-      image: "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=800",
-      location: "Portland, OR",
-      year: "2022"
+      title: "Residential complex",
+      category: "residential",
+      image: "/Projects/Residential/Complexe Bafoussam.png",
+      location: "Bafoussam, Cameroon",
+      year: "2025"
     }
   ];
 
   const keyDifferentiators = [
     {
-      icon: <Award className="w-8 h-8" />,
-      title: "Award-Winning",
-      description: "Recognized for design excellence and innovation in architectural solutions"
+      icon: <Users className="w-8 h-8" />,
+      title: "Anthropo-Centric",
+      description: "Designing spaces that prioritize human experience and well-being"
     },
     {
       icon: <Leaf className="w-8 h-8" />,
@@ -70,7 +70,7 @@ export default function HomePage() {
       description: "Environmentally conscious design solutions for a better tomorrow"
     },
     {
-      icon: <Users className="w-8 h-8" />,
+      icon: <Handshake className="w-8 h-8" />,
       title: "Collaborative",
       description: "Partnership approach with every client throughout the entire process"
     },
@@ -157,7 +157,7 @@ export default function HomePage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold text-brown-900 mb-6">
-              Welcome to ArcSpace
+              Welcome to ASANTE
             </h2>
             <p className="text-xl text-neutral-700 leading-relaxed mb-8">
               We are a forward-thinking architectural firm dedicated to creating innovative, 
@@ -177,7 +177,7 @@ export default function HomePage() {
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-brown-900 mb-6">
-              Why Choose ArcSpace
+              Why Choose ASANTE
             </h2>
             <p className="text-xl text-neutral-700 max-w-3xl mx-auto">
               Our commitment to excellence, innovation, and sustainability sets us apart 

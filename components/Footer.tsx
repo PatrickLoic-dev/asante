@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { MapPin, Phone, Mail, Instagram, Linkedin, Twitter } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -8,10 +9,15 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <Link href="/" className="text-2xl font-bold">
-              Arc<span className="text-brown-300">Space</span>
+              <Image
+                src={"/Logo.png"}
+                alt={"ASANTE Logo"}
+                width={150}
+                height={50}
+              />
             </Link>
             <p className="text-brown-200 leading-relaxed">
-              Crafting modern architecture for a better future through innovative 
+              Crafting modern architecture for a better future through innovative
               and sustainable design solutions.
             </p>
             <div className="flex space-x-4">
@@ -26,10 +32,10 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div>
-            <h4 className="font-semibold mb-4 text-lg">Services</h4>
-            <ul className="space-y-2 text-brown-200">
+            <h4 className="font-semibold mb-6 text-lg">Services</h4>
+            <ul className="space-y-4 text-brown-200">
               <li><Link href="/services" className="hover:text-white transition-colors">Architectural Design</Link></li>
               <li><Link href="/services" className="hover:text-white transition-colors">Interior Architecture</Link></li>
               <li><Link href="/services" className="hover:text-white transition-colors">Sustainable Design</Link></li>
@@ -37,10 +43,10 @@ export default function Footer() {
               <li><Link href="/services" className="hover:text-white transition-colors">Master Planning</Link></li>
             </ul>
           </div>
-          
+
           <div>
-            <h4 className="font-semibold mb-4 text-lg">Projects</h4>
-            <ul className="space-y-2 text-brown-200">
+            <h4 className="font-semibold mb-6 text-lg">Projects</h4>
+            <ul className="space-y-4 text-brown-200">
               <li><Link href="/projects" className="hover:text-white transition-colors">Residential</Link></li>
               <li><Link href="/projects" className="hover:text-white transition-colors">Commercial</Link></li>
               <li><Link href="/projects" className="hover:text-white transition-colors">Public Buildings</Link></li>
@@ -48,28 +54,28 @@ export default function Footer() {
               <li><Link href="/projects" className="hover:text-white transition-colors">Adaptive Reuse</Link></li>
             </ul>
           </div>
-          
+
           <div>
-            <h4 className="font-semibold mb-4 text-lg">Contact Info</h4>
-            <div className="space-y-3 text-brown-200">
+            <h4 className="font-semibold mb-6 text-lg">Contact Info</h4>
+            <div className="space-y-4 text-brown-200">
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span>123 Design Street<br />San Francisco, CA 94103</span>
+                <span>Bonabassem, Deido<br/>Douala, LT</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>(+237) 694-261-423 / 693-080-371</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 flex-shrink-0" />
-                <span>hello@arcspace.com</span>
+                <span>asanteartsy@yahoo.com</span>
               </div>
             </div>
           </div>
         </div>
-        
+
         <div className="border-t border-brown-800 mt-12 pt-8 text-center text-brown-300">
-          <p>&copy; 2024 ArcSpace. All rights reserved.</p>
+          <p>&copy; 2025 ASANTE. All rights reserved.</p>
         </div>
       </div>
     </footer>

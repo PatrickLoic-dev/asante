@@ -54,20 +54,20 @@ export default function ContactPage() {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Office Location",
-      details: ["123 Design Street", "San Francisco, CA 94103"],
+      details: ["Bonabassem, Deido", "Douala, LT"],
       link: "https://maps.google.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      details: ["+1 (555) 123-4567"],
-      link: "tel:+15551234567"
+      details: ["(+237) 694-261-423", "(+237) 693-080-371"],
+      link: "tel:+237694261423"
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      details: ["hello@arcspace.com"],
-      link: "mailto:hello@arcspace.com"
+      details: ["asanteartsy@yahoo.com"],
+      link: "mailto:asanteartsy@yahoo.com"
     },
     {
       icon: <Clock className="w-6 h-6" />,
@@ -327,7 +327,7 @@ export default function ContactPage() {
               <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
                 <Image
                   src="https://images.pexels.com/photos/380337/pexels-photo-380337.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="ArcSpace Office"
+                  alt="ASANTE Office"
                   width={400}
                   height={300}
                   className="w-full h-48 object-cover"
@@ -361,7 +361,7 @@ export default function ContactPage() {
             <div className="text-center">
               <MapPin className="w-12 h-12 text-brown-600 mx-auto mb-4" />
               <p className="text-brown-900 font-semibold">Interactive Map</p>
-              <p className="text-neutral-600">123 Design Street, San Francisco, CA 94103</p>
+              <p className="text-neutral-600">Bonabassem, Deido Douala, LT</p>
             </div>
           </div>
         </div>
@@ -393,12 +393,11 @@ export default function ContactPage() {
 
             <div className="bg-white rounded-lg p-6">
               <h3 className="text-xl font-bold text-brown-900 mb-3">
-                Do you work on projects outside of California?
+                Do you work on projects outside of Cameroon?
               </h3>
               <p className="text-neutral-700">
-                Yes, we work on projects throughout the United States and internationally. 
-                We have experience managing remote projects and can coordinate with local 
-                consultants and contractors as needed.
+                Yes, we work on projects throughout Africa and internationally. 
+                We can coordinate with local consultants and contractors as needed.
               </p>
             </div>
 
