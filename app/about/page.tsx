@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 
 export default function AboutPage() {
   const stats = [
-    { number: '150+', label: 'Projects Completed' },
+    { number: '10+', label: 'Projects Completed' },
     { number: '3', label: 'Years Experience' },
     { number: '10+', label: 'Happy Clients' }
   ];
