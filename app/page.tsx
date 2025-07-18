@@ -157,7 +157,7 @@ export default function HomePage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold text-brown-900 mb-6">
-              Welcome to ASANTE
+              Welcome to ASANTE ARTSY
             </h2>
             <p className="text-xl text-neutral-700 leading-relaxed mb-8">
               We are a forward-thinking architectural firm dedicated to creating innovative, 
@@ -177,7 +177,7 @@ export default function HomePage() {
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-brown-900 mb-6">
-              Why Choose ASANTE
+              Why Choose ASANTE ARTSY
             </h2>
             <p className="text-xl text-neutral-700 max-w-3xl mx-auto">
               Our commitment to excellence, innovation, and sustainability sets us apart 

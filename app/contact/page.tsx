@@ -327,7 +327,7 @@ export default function ContactPage() {
               <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
                 <Image
                   src="https://images.pexels.com/photos/380337/pexels-photo-380337.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="ASANTE Office"
+                  alt="ASANTE ARTSY Office"
                   width={400}
                   height={300}
                   className="w-full h-48 object-cover"

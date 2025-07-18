@@ -11,7 +11,7 @@ export default function Footer() {
             <Link href="/" className="text-2xl font-bold">
               <Image
                 src={"/Logo.png"}
-                alt={"ASANTE Logo"}
+                alt={"ASANTE ARTSY Logo"}
                 width={150}
                 height={50}
               />
@@ -75,7 +75,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-brown-800 mt-12 pt-8 text-center text-brown-300">
-          <p>&copy; 2025 ASANTE. All rights reserved.</p>
+          <p>&copy; 2025 ASANTE ARTSY. All rights reserved.</p>
         </div>
       </div>
     </footer>

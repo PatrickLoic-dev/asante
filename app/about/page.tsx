@@ -86,11 +86,11 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold text-brown-900 mb-6">
-                About <span className="text-brown-600">ASANTE</span>
+                About <span className="text-brown-600">ASANTE ARTSY</span>
               </h1>
               <p className="text-xl text-neutral-700 mb-8 leading-relaxed">
-                Founded in September 2012, ASANTE has established itself as a leading architectural firm 
-                specializing in sustainable, innovative design solutions that enhance communities 
+                Founded in September 2012, ASANTE ARTSY has established itself as a leading architectural firm
+                specializing in sustainable, innovative design solutions that enhance communities
                 and improve quality of life.
               </p>
               <div className="grid grid-cols-2 gap-6">
@@ -102,11 +102,11 @@ export default function AboutPage() {
                 ))}
               </div>
             </div>
-            
+
             <div className="relative">
               <Image
                 src="https://images.pexels.com/photos/380337/pexels-photo-380337.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="ASANTE Studio"
+                alt="ASANTE ARTSY Studio"
                 width={600}
                 height={500}
                 className="rounded-lg shadow-2xl"
@@ -125,20 +125,26 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg max-w-none text-neutral-700">
               <p className="text-xl leading-relaxed mb-6">
-                ASANTE was born from a vision to create architecture that not only serves its immediate 
-                purpose but also contributes positively to the broader community and environment. Our founder, 
-                Sarah Johnson, established the firm with the belief that great architecture should be accessible, 
-                sustainable, and deeply connected to the people who inhabit it.
+                ASANTE ARTSY ARTSY was born from a vision to create architecture that not only serves its immediate
+                purpose but also contributes positively to the broader community and environment. Co-led by
+                Mandessi Kwelle, and Karell Koupele, a visionary in innovative design, the firm embodies a commitment
+                to accessible, sustainable, and community-focused architecture.
               </p>
               <p className="text-lg leading-relaxed mb-6">
-                Over the years, we have grown from a small studio to a multidisciplinary team of architects, 
-                designers, and project managers, all united by a shared commitment to design excellence and 
-                environmental stewardship. Our projects span residential, commercial, and public sectors, 
-                each reflecting our core values of innovation, sustainability, and community engagement.
+                Since its inception, ASANTE ARTSY has grown from a small studio into a multidisciplinary team of
+                architects, engineers, and designers who share a passion for creating spaces that inspire and
+                endure. Our projects span across residential, commercial, and public sectors, each reflecting
+                our dedication to innovation, sustainability, and excellence.
+              </p>
+              <p className="text-lg leading-relaxed mb-6">
+                At ASANTE ARTSY, we believe that architecture is more than just buildings—it’s about creating
+                environments that enhance lives, foster connections, and stand as a testament to thoughtful
+                design. Our team works closely with clients to understand their unique needs and aspirations,
+                ensuring that every project is a true reflection of their vision.
               </p>
               <p className="text-lg leading-relaxed">
-                Today, ASANTE continues to push the boundaries of architectural design, integrating 
-                cutting-edge technology with time-tested principles to create spaces that inspire, 
+                Today, ASANTE ARTSY continues to push the boundaries of architectural design, integrating
+                cutting-edge technology with time-tested principles to create spaces that inspire,
                 function beautifully, and stand the test of time.
               </p>
             </div>
@@ -177,7 +183,7 @@ export default function AboutPage() {
               Meet Our Team
             </h2>
             <p className="text-xl text-neutral-700 max-w-3xl mx-auto">
-              Our diverse team of talented professionals brings together decades of experience 
+              Our diverse team of talented professionals brings together decades of experience
               and a shared passion for exceptional design.
             </p>
           </div>
@@ -227,7 +233,7 @@ export default function AboutPage() {
                 Our Design Philosophy
               </h2>
               <p className="text-xl text-neutral-700 mb-6 leading-relaxed">
-                We believe that great architecture emerges from the intersection of human needs, 
+                We believe that great architecture emerges from the intersection of human needs,
                 environmental responsibility, and aesthetic excellence.
               </p>
               <div className="space-y-6">
@@ -240,7 +246,7 @@ export default function AboutPage() {
                     <p className="text-neutral-700">Every space we create is designed with the end user in mind, prioritizing comfort, functionality, and well-being.</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-4">
                   <div className="bg-brown-800 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
                     <Building className="w-6 h-6 text-white" />
@@ -250,7 +256,7 @@ export default function AboutPage() {
                     <p className="text-neutral-700">Our designs respond thoughtfully to their surroundings, enhancing rather than disrupting the existing environment.</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-4">
                   <div className="bg-brown-800 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
                     <Award className="w-6 h-6 text-white" />
@@ -262,7 +268,7 @@ export default function AboutPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="grid grid-cols-2 gap-4">
               <Image
                 src="https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=400"
@@ -299,7 +305,7 @@ export default function AboutPage() {
             Let's Create Something Amazing Together
           </h2>
           <p className="text-xl text-brown-200 mb-8 max-w-3xl mx-auto">
-            Ready to start your architectural journey? We'd love to hear about your project 
+            Ready to start your architectural journey? We'd love to hear about your project
             and explore how we can bring your vision to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
