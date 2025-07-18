@@ -37,7 +37,7 @@ export default function ProjectsPage() {
     },
     {
       id: 3,
-      title: "CPA Facade",
+      title: "UCB Facade",
       category: "commercial",
       image: "/Projects/Commercial/Facade CPA - Douala.png",
       location: "Douala, Cameroon",
