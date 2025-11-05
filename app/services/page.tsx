@@ -1,10 +1,59 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { Building2, Home, Leaf, Users, Zap, Compass, ArrowRight, CheckCircle } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Architectural Services | ASANTE ARTSY - Design, Planning & Construction',
+  description: 'Comprehensive architectural services in Cameroon including design, interior architecture, sustainable solutions, project management, and feasibility studies. Expert architects delivering exceptional results.',
+  keywords: [
+    'architectural services Cameroon',
+    'building design services',
+    'interior architecture',
+    'sustainable design',
+    'project management',
+    'construction administration',
+    'master planning',
+    'feasibility studies',
+    'architectural consultancy',
+    'LEED certification',
+    'energy modeling',
+    'architectural documentation',
+    'design development',
+    'construction planning'
+  ],
+  openGraph: {
+    title: 'Architectural Services | ASANTE ARTSY - Complete Design Solutions',
+    description: 'Comprehensive architectural services from concept to completion. Expert design, sustainable solutions, project management, and construction administration across Cameroon and Africa.',
+    url: 'https://www.asanteartsy.com/services',
+    siteName: 'ASANTE ARTSY',
+    images: [
+      {
+        url: '/Logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'ASANTE ARTSY Architectural Services - Complete Design Solutions',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Architectural Services | ASANTE ARTSY - Complete Design Solutions',
+    description: 'Comprehensive architectural services from concept to completion. Expert design, sustainable solutions, and project management across Cameroon and Africa.',
+    images: ['/Logo.png'],
+  },
+  alternates: {
+    canonical: 'https://www.asanteartsy.com/services',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function ServicesPage() {
   const services = [

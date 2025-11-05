@@ -1,10 +1,57 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { Award, Users, Calendar, Building, ArrowRight } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About ASANTE ARTSY - Our Story & Team | Architecture Firm Cameroon',
+  description: 'Learn about ASANTE ARTSY, a leading architectural firm in Cameroon founded in 2012. Meet our expert team of architects and engineers delivering innovative, sustainable design solutions across Africa.',
+  keywords: [
+    'about ASANTE ARTSY',
+    'architectural firm history',
+    'Cameroon architects',
+    'architectural team',
+    'Mandessi Kwelle architect',
+    'Emmanuelle Koupelle architect',
+    'architectural expertise',
+    'sustainable design team',
+    'ONAC architects Cameroon',
+    'architectural consultancy',
+    'building design experts',
+    'construction professionals'
+  ],
+  openGraph: {
+    title: 'About ASANTE ARTSY - Our Story & Expert Team',
+    description: 'Founded in 2012, ASANTE ARTSY is a leading architectural firm in Cameroon. Meet our expert team of ONAC-certified architects and engineers delivering innovative, sustainable design solutions.',
+    url: 'https://www.asanteartsy.com/about',
+    siteName: 'ASANTE ARTSY',
+    images: [
+      {
+        url: '/Team/Mandessi Kwelle.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'ASANTE ARTSY Team - Expert Architects in Cameroon',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About ASANTE ARTSY - Our Story & Expert Team',
+    description: 'Founded in 2012, meet our expert team of ONAC-certified architects delivering innovative, sustainable design solutions across Cameroon and Africa.',
+    images: ['/Team/Mandessi Kwelle.jpg'],
+  },
+  alternates: {
+    canonical: 'https://www.asanteartsy.com/about',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function AboutPage() {
   const stats = [
