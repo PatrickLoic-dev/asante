@@ -154,6 +154,18 @@ export default function ProjectsPage() {
       area: "500 m²",
       client: "Private Client",
       featured: false
+    },
+    {
+      id: 13,
+      title: "ATOGE A LOESENSE",
+      category: "residential",
+      image: "/Projects/Residential/Nouveau projet.png",
+      location: "Douala, Cameroon",
+      year: "2025",
+      description: "A multi-story residential building in Douala.",
+      area: "N/A",
+      client: "Private Client",
+      featured: false
     }
   ];
 

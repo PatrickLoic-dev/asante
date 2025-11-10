@@ -68,7 +68,7 @@ export default function ServicesPage() {
         "Construction Documentation",
         "3D Visualization & Rendering"
       ],
-      image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "/Images/8.jpg"
     },
     {
       icon: <Home className="w-8 h-8" />,
@@ -81,7 +81,7 @@ export default function ServicesPage() {
         "Lighting Design Integration",
         "Furniture & Fixture Coordination"
       ],
-      image: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "/Images/6.jpg"
     },
     {
       icon: <Leaf className="w-8 h-8" />,
@@ -94,7 +94,7 @@ export default function ServicesPage() {
         "Sustainable Material Selection",
         "Water Conservation Systems"
       ],
-      image: "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "/Images/7.jpg"
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -107,7 +107,7 @@ export default function ServicesPage() {
         "Budget & Schedule Management",
         "Client Communication & Updates"
       ],
-      image: "https://images.pexels.com/photos/2412603/pexels-photo-2412603.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "/Images/5.jpg"
     },
     {
       icon: <Compass className="w-8 h-8" />,
@@ -120,7 +120,7 @@ export default function ServicesPage() {
         "Phased Development Strategies",
         "Community Engagement"
       ],
-      image: "https://images.pexels.com/photos/380337/pexels-photo-380337.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "/Images/2.jpg"
     },
     {
       icon: <Zap className="w-8 h-8" />,
@@ -133,7 +133,7 @@ export default function ServicesPage() {
         "Timeline Development",
         "Risk Assessment & Mitigation"
       ],
-      image: "https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "/Images/9.jpg"
     }
   ];
 

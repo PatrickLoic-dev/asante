@@ -303,7 +303,7 @@ export default function AboutPage() {
 
             <div className="grid grid-cols-2 gap-4">
               <Image
-                src="https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src="/Images/11.jpg"
                 alt="Design Process"
                 width={300}
                 height={400}
@@ -311,14 +311,14 @@ export default function AboutPage() {
               />
               <div className="space-y-4">
                 <Image
-                  src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="/Images/6.jpg"
                   alt="Architecture Detail"
                   width={300}
                   height={190}
                   className="rounded-lg object-cover w-full"
                 />
                 <Image
-                  src="https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="/Images/4.jpg"
                   alt="Sustainable Design"
                   width={300}
                   height={190}

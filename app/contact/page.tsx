@@ -357,12 +357,17 @@ export default function ContactPage() {
             </p>
           </div>
           
-          <div className="bg-neutral-200 rounded-2xl h-96 flex items-center justify-center">
-            <div className="text-center">
-              <MapPin className="w-12 h-12 text-brown-600 mx-auto mb-4" />
-              <p className="text-brown-900 font-semibold">Interactive Map</p>
-              <p className="text-neutral-600">Bonabassem, Deido Douala, LT</p>
-            </div>
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.5!2d9.7372!3d4.0611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610a0d0b8d4c4f%3A0x1234567890abcdef!2sBonabassem%2C%20Deido%2C%20Douala%2C%20Cameroon!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus&markers=color:red%7Clabel:ASANTE%20ARTSY%7C4.0611,9.7372&zoom=16"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="ASANTE ARTSY Office Location - Bonabassem, Deido Douala, Cameroon"
+            ></iframe>
           </div>
         </div>
       </section>

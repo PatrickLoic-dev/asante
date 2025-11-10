@@ -300,7 +300,7 @@ export default function HomePage() {
             
             <div className="relative">
               <Image
-                src="https://images.pexels.com/photos/380337/pexels-photo-380337.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/Images/12.jpg"
                 alt="Architectural Services"
                 width={600}
                 height={500}
