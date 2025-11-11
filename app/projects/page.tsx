@@ -121,6 +121,18 @@ export default function ProjectsPage() {
     },
     {
       id: 10,
+      title: "Private Clinic",
+      category: "public",
+      image: "/Projects/Residential/Nouveau projet.png",
+      location: "Bonapriso, Douala, Cameroon",
+      year: "2025",
+      description: "A modern private medical facility designed to provide quality healthcare services.",
+      area: "N/A",
+      client: "Private Client",
+      featured: false
+    },
+    {
+      id: 11,
       title: "Residential complex",
       category: "residential",
       image: "/Projects/Residential/Complexe Bafoussam.png",
@@ -132,7 +144,7 @@ export default function ProjectsPage() {
       featured: true
     },
     {
-      id: 11,
+      id: 12,
       title: "Complex story building project",
       category: "residential",
       image: "/Projects/Residential/Complexe Bonapriso.png",
@@ -144,10 +156,10 @@ export default function ProjectsPage() {
       featured: false
     },
     {
-      id: 12,
+      id: 13,
       title: "R+3 Building",
       category: "residential",
-      image: "/Projects/Residential/R+3 Yassa.png",
+      image: "/Projects/Residential/Building Yassa.png",
       location: "Yassa, Douala, Cameroon",
       year: "2025",
       description: "A multi-story residential building in Yassa.",
@@ -155,18 +167,6 @@ export default function ProjectsPage() {
       client: "Private Client",
       featured: false
     },
-    {
-      id: 13,
-      title: "Private Clinic",
-      category: "public",
-      image: "/Projects/Residential/Nouveau projet.png",
-      location: "Bonapriso, Douala, Cameroon",
-      year: "2025",
-      description: "A modern private medical facility designed to provide quality healthcare services.",
-      area: "N/A",
-      client: "Private Client",
-      featured: false
-    }
   ];
 
   const filteredProjects = selectedFilter === 'all' 
