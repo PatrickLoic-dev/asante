@@ -330,7 +330,7 @@ export default function ContactPage() {
                   alt="ASANTE ARTSY Office"
                   width={400}
                   height={300}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-48 object-cover pointer-events-none"
                 />
                 <div className="p-6">
                   <h4 className="font-semibold text-brown-900 mb-2">Visit Our Studio</h4>

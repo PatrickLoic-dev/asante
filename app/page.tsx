@@ -106,7 +106,7 @@ export default function HomePage() {
               src={slide.image}
               alt={slide.title}
               fill
-              className="object-cover"
+              className="object-cover pointer-events-none"
               priority={index === 0}
             />
             <div className="absolute inset-0 bg-black/40"></div>
@@ -223,7 +223,7 @@ export default function HomePage() {
                     alt={project.title}
                     width={400}
                     height={300}
-                    className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -304,7 +304,7 @@ export default function HomePage() {
                 alt="Architectural Services"
                 width={600}
                 height={500}
-                className="rounded-lg shadow-2xl"
+                className="rounded-lg shadow-2xl pointer-events-none"
               />
             </div>
           </div>

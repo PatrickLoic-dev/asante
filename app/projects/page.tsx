@@ -157,12 +157,12 @@ export default function ProjectsPage() {
     },
     {
       id: 13,
-      title: "ATOGE A LOESENSE",
-      category: "residential",
+      title: "Private Clinic",
+      category: "public",
       image: "/Projects/Residential/Nouveau projet.png",
-      location: "Douala, Cameroon",
+      location: "Bonapriso, Douala, Cameroon",
       year: "2025",
-      description: "A multi-story residential building in Douala.",
+      description: "A modern private medical facility designed to provide quality healthcare services.",
       area: "N/A",
       client: "Private Client",
       featured: false
@@ -216,7 +216,7 @@ export default function ProjectsPage() {
                     alt={project.title}
                     width={400}
                     height={300}
-                    className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute top-4 left-4">
@@ -308,7 +308,7 @@ export default function ProjectsPage() {
                       alt={project.title}
                       width={400}
                       height={300}
-                      className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300 pointer-events-none"
                     />
                     <div className="absolute top-4 left-4">
                       <span className="bg-brown-600 text-white px-3 py-1 rounded-full text-sm font-semibold capitalize">

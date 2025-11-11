@@ -41,7 +41,7 @@ export default function Navigation() {
               alt="Asante Artsy Architecture"
               width={180}
               height={60}
-              className="h-12 w-auto"
+              className="h-12 w-auto pointer-events-none"
               priority
             />
           </Link>

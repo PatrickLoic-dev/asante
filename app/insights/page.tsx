@@ -122,7 +122,7 @@ export default function InsightsPage() {
                   src={featuredArticle.image}
                   alt={featuredArticle.title}
                   fill
-                  className="object-cover"
+                  className="object-cover pointer-events-none"
                 />
               </div>
               <div className="p-8 lg:p-12 flex flex-col justify-center">
@@ -201,7 +201,7 @@ export default function InsightsPage() {
                     alt={article.title}
                     width={400}
                     height={250}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300 pointer-events-none"
                   />
                   <div className="absolute top-4 left-4">
                     <span className="bg-brown-600 text-white px-3 py-1 rounded-full text-sm font-semibold">

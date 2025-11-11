@@ -14,6 +14,7 @@ export default function Footer() {
                 alt={"ASANTE ARTSY Logo"}
                 width={150}
                 height={50}
+                className="pointer-events-none"
               />
             </Link>
             <p className="text-brown-200 leading-relaxed">

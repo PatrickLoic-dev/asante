@@ -226,7 +226,7 @@ export default function ServicesPage() {
                     alt={service.title}
                     width={600}
                     height={400}
-                    className="rounded-lg shadow-lg w-full h-96 object-cover"
+                    className="rounded-lg shadow-lg w-full h-96 object-cover pointer-events-none"
                   />
                 </div>
               </div>

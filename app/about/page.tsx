@@ -150,7 +150,7 @@ export default function AboutPage() {
                 alt="ASANTE ARTSY Studio"
                 width={600}
                 height={500}
-                className="rounded-lg shadow-2xl"
+                className="rounded-lg shadow-2xl pointer-events-none"
               />
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function AboutPage() {
                     src={member.image}
                     alt={member.name}
                     fill
-                    className="object-cover object-center"
+                    className="object-cover object-center pointer-events-none"
                   />
                 </div>
                 <div className="p-8">
@@ -307,7 +307,7 @@ export default function AboutPage() {
                 alt="Design Process"
                 width={300}
                 height={400}
-                className="rounded-lg object-cover h-full"
+                className="rounded-lg object-cover h-full pointer-events-none"
               />
               <div className="space-y-4">
                 <Image
@@ -315,14 +315,14 @@ export default function AboutPage() {
                   alt="Architecture Detail"
                   width={300}
                   height={190}
-                  className="rounded-lg object-cover w-full"
+                  className="rounded-lg object-cover w-full pointer-events-none"
                 />
                 <Image
                   src="/Images/4.jpg"
                   alt="Sustainable Design"
                   width={300}
                   height={190}
-                  className="rounded-lg object-cover w-full"
+                  className="rounded-lg object-cover w-full pointer-events-none"
                 />
               </div>
             </div>
