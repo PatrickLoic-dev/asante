@@ -7,7 +7,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About ASANTE ARTSY - Our Story & Team | Architecture Firm Cameroon',
-  description: 'Learn about ASANTE ARTSY, a leading architectural firm in Cameroon founded in 2012. Meet our expert team of architects and engineers delivering innovative, sustainable design solutions across Africa.',
+  description: 'Learn about ASANTE ARTSY, a leading architectural firm in Cameroon founded in 2022. Meet our expert team of architects and engineers delivering innovative, sustainable design solutions across Africa.',
   keywords: [
     'about ASANTE ARTSY',
     'architectural firm history',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'About ASANTE ARTSY - Our Story & Expert Team',
-    description: 'Founded in 2012, ASANTE ARTSY is a leading architectural firm in Cameroon. Meet our expert team of ONAC-certified architects and engineers delivering innovative, sustainable design solutions.',
+    description: 'Founded in 2022, ASANTE ARTSY is a leading architectural firm in Cameroon. Meet our expert team of ONAC-certified architects and engineers delivering innovative, sustainable design solutions.',
     url: 'https://www.asanteartsy.com/about',
     siteName: 'ASANTE ARTSY',
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'About ASANTE ARTSY - Our Story & Expert Team',
-    description: 'Founded in 2012, meet our expert team of ONAC-certified architects delivering innovative, sustainable design solutions across Cameroon and Africa.',
+    description: 'Founded in 2022, meet our expert team of ONAC-certified architects delivering innovative, sustainable design solutions across Cameroon and Africa.',
     images: ['/Team/Mandessi Kwelle.jpg'],
   },
   alternates: {
@@ -130,7 +130,7 @@ export default function AboutPage() {
                 About <span className="text-brown-600">ASANTE ARTSY</span>
               </h1>
               <p className="text-xl text-neutral-700 mb-8 leading-relaxed">
-                Founded in September 2012, ASANTE ARTSY has established itself as a leading architectural firm
+                Founded in September 2022, ASANTE ARTSY has established itself as a leading architectural firm
                 specializing in sustainable, innovative design solutions that enhance communities
                 and improve quality of life.
               </p>

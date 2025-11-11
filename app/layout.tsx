@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: 'ASANTE ARTSY - Premier Architecture & Design Firm in Cameroon',
     template: '%s | ASANTE ARTSY'
   },
-  description: 'Leading architectural firm in Cameroon specializing in sustainable, innovative design solutions. Expert architects delivering residential, commercial, and public projects across Africa since 2012.',
+  description: 'Leading architectural firm in Cameroon specializing in sustainable, innovative design solutions. Expert architects delivering residential, commercial, and public projects across Africa since 2022.',
   keywords: [
     'architecture Cameroon',
     'architectural design Douala',
@@ -96,7 +96,7 @@ export default function RootLayout({
           "url": "https://www.asanteartsy.com",
           "logo": "https://www.asanteartsy.com/Logo.png",
           "description": "Leading architectural firm in Cameroon specializing in sustainable, innovative design solutions for residential, commercial, and public projects.",
-          "foundingDate": "2012-09",
+          "foundingDate": "2022-09",
           "founders": [
             {
               "@type": "Person",
