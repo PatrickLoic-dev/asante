@@ -2,41 +2,23 @@
 User-agent: *
 Allow: /
 
-# Block access to admin and private areas
+# *
+User-agent: *
 Disallow: /admin/
 Disallow: /api/
 Disallow: /_next/
 Disallow: /private/
 
-# Allow access to important pages
-Allow: /
-Allow: /about
-Allow: /services
-Allow: /projects
-Allow: /contact
-
-# Sitemap location
-Sitemap: https://www.asanteartsy.com/sitemap.xml
-
-# Crawl-delay (optional - helps prevent server overload)
-Crawl-delay: 1
-
-# Specific directives for major search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-# Block known bad bots
+# AhrefsBot
 User-agent: AhrefsBot
 Disallow: /
 
+# MJ12bot
 User-agent: MJ12bot
 Disallow: /
 
-User-agent: DotBot
-Disallow: /
+# Host
+Host: https://www.asanteartsy.com
+
+# Sitemaps
+Sitemap: https://www.asanteartsy.com/sitemap.xml
